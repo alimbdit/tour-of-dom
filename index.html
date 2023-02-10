@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom dom dom</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to my dom website</h1>
+    </header>
+
+    <main id="main-container">
+        <section>
+            <h1 id="sweet" class="some-class more-class bg-purple">This is my sweet dom </h1>
+            <h1 id="sweet1" class="some-class more-class bg-purple">This is my another dom </h1>
+            <h1 id="sweet2" class="some-class more-class bg-purple">This is my  </h1>
+
+        <ul>
+            <li class="jalali">bonobash</li>
+            <li class="jalali">Jalali set</li>
+            <li class="jalali">shadon</li>
+            <li>dom de re baba</li>
+        </ul>
+        </section>
+
+        <section>
+            <h1>my favorite fruits</h1>
+            <ul>
+                <li>apple</li>
+                <li>banana</li>
+                <li>mango</li>
+                <li>berry</li>
+            </ul>
+        </section>
+        <section id="places-container" class="large-text">
+            <h1>my favorite places</h1>
+            <ul id="placeUL">
+                <li>shundorban</li>
+                <li>bandarbon</li>
+                <li>modhutila</li>
+                <li>kataban</li>
+            </ul>
+        </section>
+    </main>
+    
+    <script src="js/dom.js"></script>
+
+    <script src="js/append.js"></script>
+    <script src="js/stylesInJs.js"></script>
+
+    <script>
+        const allItems = document.getElementsByTagName('li');
+        for(const item of allItems){
+            // console.log(item.innerText);
+        }
+    </script>
+</body>
+</html>

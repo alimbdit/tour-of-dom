@@ -1,0 +1,14 @@
+h1 {
+    color: brown;
+}
+li{
+    color: rgb(34, 0, 155);
+}
+
+.bg-yellow {
+    text-align: center;
+}
+
+.large-text {
+    font-size: 2em;
+}
